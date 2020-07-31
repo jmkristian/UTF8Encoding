@@ -7,19 +7,17 @@
         ' Revision:     7/25/2020:  #1605, port VBA code from John W6JMK
         ' Revision:     7/29/2020:  UTF-8 encoding
 
+        Const marker = "~"
+        Const special = marker & Chr(34) & "\%"
+
         Dim utf8 As New System.Text.UTF8Encoding ' no BOM (byte order mark)
         Dim bytes As Byte()
         Dim i As Long
         Dim n As Integer
         Dim NewString As String
-        Dim marker As String
-        Dim special As String
         Dim OneChar                         ' Resolves as a variant
 
-        marker = "~"
-        special = marker & Chr(34) & "\%"
         NewString = ""
-
         bytes = utf8.GetBytes(instring)
         For i = 0 To bytes.GetUpperBound(0) ' loop through each byte
             n = CInt(bytes(i))
@@ -35,7 +33,6 @@
                 NewString = NewString & OneChar
             End If
         Next
-
         EncodeString = NewString
         Exit Function
     End Function
