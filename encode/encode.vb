@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module encode
     Private Function EncodeString(ByVal instring As String) As String
         ' Description:  This function encodes characters so they are correctly passed
         '               during Shell and ShellExecute calls.  Double-quotation marks ("), backslash (\),
