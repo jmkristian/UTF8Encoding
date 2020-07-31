@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "encode", "encode\encode.vbproj", "{AF07D9A1-3D2D-4B56-AA0B-B575B4EE1720}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "decode", "decode\decode.vbproj", "{5BC35AFE-B1FF-4563-A265-2CB7240A223A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AF07D9A1-3D2D-4B56-AA0B-B575B4EE1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF07D9A1-3D2D-4B56-AA0B-B575B4EE1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF07D9A1-3D2D-4B56-AA0B-B575B4EE1720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC35AFE-B1FF-4563-A265-2CB7240A223A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC35AFE-B1FF-4563-A265-2CB7240A223A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC35AFE-B1FF-4563-A265-2CB7240A223A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC35AFE-B1FF-4563-A265-2CB7240A223A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
