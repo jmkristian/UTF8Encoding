@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AF07D9A1-3D2D-4B56-AA0B-B575B4EE1720}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>encode.Module1</StartupObject>
+    <StartupObject>encode.encode</StartupObject>
     <RootNamespace>encode</RootNamespace>
     <AssemblyName>encode</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -61,7 +61,7 @@
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="encode.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
