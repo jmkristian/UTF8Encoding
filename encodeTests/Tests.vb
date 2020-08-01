@@ -13,7 +13,10 @@ Namespace Tests
                 {ChrW(&H7F), "~7f"},
                 {ChrW(&H100), "~c4~80"},
                 {ChrW(&H1000), "~E1~80~80"},
+                {ChrW(&H3432), "~E3~90~B2"},
+                {ChrW(&HFF38), "~ef~bc~b8"},
                 {"Jos" & ChrW(&HE9), "Jos~c3~A9"},
+                {ChrW(&HFEFF) & "A", "~eF~Bb~bfA"},
                 {ChrW(&H201C) & "Word" & ChrW(&H201D), "~e2~80~9CWord~E2~80~9d"}}
             testCases("specials") = {
                 {"""Quotation""", "~22Quotation~22"},
