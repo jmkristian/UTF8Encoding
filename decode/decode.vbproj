@@ -97,5 +97,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\coding\coding.vbproj">
+      <Project>{0e2cd197-340a-4bb3-b624-afe420c5bc20}</Project>
+      <Name>coding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
