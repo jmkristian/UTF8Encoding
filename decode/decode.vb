@@ -1,6 +1,6 @@
 ﻿Imports coding
 
-Module decode
+Module Decode
     Declare Function SetConsoleOutputCP Lib "kernel32" (ByVal wCodePageID As Integer) As Integer
     Const CodePageUTF8 = 65001
     Sub Main()

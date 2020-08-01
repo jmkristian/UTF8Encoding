@@ -1,5 +1,5 @@
 ﻿Imports coding
-Module encode
+Module Encode
     Sub Main()
         ' Encode the command line arguments.
         Dim clArgs() As String = Environment.GetCommandLineArgs()
