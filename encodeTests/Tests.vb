@@ -1,5 +1,7 @@
 Imports NUnit.Framework
-Imports coding
+Imports encode
+Imports decode
+
 Namespace Tests
     Public Class Coding
 
